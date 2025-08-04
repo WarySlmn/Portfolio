@@ -1,33 +1,24 @@
 import Image from 'next/image';
-import { useState } from 'react';
-import { aboutMeData } from '../../data/aboutMeData';
 
-function AboutMeBio() {
-	const [aboutMe, setAboutMe] = useState(aboutMeData);
-	return (
-		<div className="block sm:flex sm:gap-10 mt-10 sm:mt-20">
-			<div className="w-full sm:w-1/4 mb-7 sm:mb-0">
-				<Image
-					src="/images/profile.jpeg"
-					width={200}
-					height={200}
-					className="rounded-lg"
-					alt="Profile Image"
-				/>
-			</div>
-
-			<div className="font-general-regular w-full sm:w-3/4 text-left">
-				{aboutMe.map((bio) => (
-					<p
-						className="mb-4 text-ternary-dark dark:text-ternary-light text-lg"
-						key={bio.id}
-					>
-						{bio.bio}
-					</p>
-				))}
-			</div>
-		</div>
-	);
+function AboutClients() {
+  return (
+    <div className="mt-10">
+      <h2 className="text-2xl font-bold text-ternary-dark dark:text-primary-light mb-6">
+        Mes clients et partenaires
+      </h2>
+      <div className="flex flex-wrap gap-6">
+        <div className="w-24 h-24 flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg shadow">
+          <Image
+            src="/images/clients/default-client.png"
+            alt="Client"
+            width={80}
+            height={80}
+          />
+        </div>
+        {/* Ajoute d'autres logos ici si nécessaire */}
+      </div>
+    </div>
+  );
 }
 
-export default AboutMeBio;
+export default AboutClients;

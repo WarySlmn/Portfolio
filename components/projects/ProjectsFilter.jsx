@@ -1,7 +1,7 @@
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
+	'Gestion de projet',
+	'Data Analyisis',
+	'Projet Académique',
 	'Branding',
 ];
 

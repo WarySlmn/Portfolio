@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { clientsData } from '../../data/clientsData';
-import { clientsHeading } from '../../data/clientsData';
+import { motion } from 'framer-motion';
 import AboutClientSingle from './AboutClientSingle';
 
 function AboutClients() {
