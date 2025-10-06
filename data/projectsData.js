@@ -438,5 +438,69 @@ export const projectsData = [
       }
     ],
   },
-}
+
+},
+{
+id: 7,
+  title: "Deloitte – Data Analytics Virtual Experience",
+  url: "deloitte-data-analytics",
+  category: "Data Analysis / Data Classification",
+  img: "/images/deloitte_project.jpg", // à ajouter dans ton dossier public/images/
+  ProjectHeader: {
+    title: "Deloitte – Data Analytics Virtual Experience",
+    publishDate: "2025",
+    tags: "Excel / Data Cleaning / Data Classification / Forage",
+  },
+  ProjectImages: [
+    {
+      id: uuidv4(),
+      title: "Analyse d’égalité",
+      img: "W:\\IDMC\\Alternance\\portfolio\\public\\images\\deloitte_project\\Dashboard.png",
+    },
+    {
+      id: uuidv4(),
+      title: "Classification des scores",
+      img: "/images/deloitte_project/certificat.jpg",
+    }
+  ],
+  ProjectInfo: {
+    ClientHeading: "Contexte du projet",
+    CompanyInfo: [
+      {
+        id: uuidv4(),
+        title: "Programme",
+        details: "Deloitte – Data Analytics Virtual Experience ",
+      },
+      {
+        id: uuidv4(),
+        title: "Client simulé",
+        details: "Daikibo – Groupe industriel international (Japon, Allemagne, Chine)",
+      }
+    ],
+    ObjectivesHeading: "Objectif",
+    ObjectivesDetails:
+      "Analyser les données de performance et d’égalité au sein des usines du groupe Daikibo afin de classifier les scores d’équité et identifier les zones de discrimination potentielle.",
+    Technologies: [
+      {
+        title: "Outils & Technologies",
+        techs: ["Excel", "JSON", "PowerPoint", "Data Cleaning", "Data Classification","Tableau","Data Visualization"],
+      },
+    ],
+    ProjectDetailsHeading: "Détails du projet",
+    ProjectDetails: [
+      {
+        id: uuidv4(),
+        details:
+          "• Simulation d’un poste d’analyste chez Deloitte via la plateforme The Forage.\n" +
+          "• Nettoyage et unification de données issues de 4 usines situées à Tokyo, Osaka, Berlin et Shenzhen.\n" +
+          "• Classification des scores d’égalité (Fair, Unfair, Highly Discriminative) selon des intervalles définis.\n" +
+          "• Création d’un tableau Excel avec automatisation du calcul de la classe d’égalité via des formules conditionnelles.\n" +
+          "• Interprétation des résultats et préparation d’une présentation PowerPoint synthétisant les écarts observés entre sites et postes.\n" +
+          "• Analyse complémentaire des données de télémétrie pour déterminer les machines et sites connaissant le plus de pannes."
+      }
+    ],
+    SocialSharingHeading: "Partager ce projet",
+  },
+},
+
 ];
