@@ -459,8 +459,8 @@ id: 7,
     },
     {
       id: uuidv4(),
-      title: "Classification des scores",
-      img: "/images/deloitte_project/certificat.jpg",
+      title: "Certificat of Completion",
+      img: "/images/deloitte_project/certicat.jpg",
     }
   ],
   ProjectInfo: {
