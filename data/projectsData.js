@@ -445,7 +445,7 @@ id: 7,
   title: "Deloitte – Data Analytics Virtual Experience",
   url: "deloitte-data-analytics",
   category: "Data Analysis / Data Classification",
-  img: "/images/deloitte_project.jpg", // à ajouter dans ton dossier public/images/
+  img: "/images/deloitte_project/logo_deloitte.jpg", // à ajouter dans ton dossier public/images/
   ProjectHeader: {
     title: "Deloitte – Data Analytics Virtual Experience",
     publishDate: "2025",
@@ -455,7 +455,7 @@ id: 7,
     {
       id: uuidv4(),
       title: "Analyse d’égalité",
-      img: "W:\\IDMC\\Alternance\\portfolio\\public\\images\\deloitte_project\\Dashboard.png",
+      img: "/images/deloitte_project/Dashboard.png",
     },
     {
       id: uuidv4(),
