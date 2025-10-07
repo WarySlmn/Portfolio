@@ -460,7 +460,7 @@ id: 7,
     {
       id: uuidv4(),
       title: "Certificat of Completion",
-      img: "/images/deloitte_project/logo_deloitte.jpg",
+      img: "public/images/deloitte_project/certificate.jpg",
     }
   ],
   ProjectInfo: {
