@@ -455,12 +455,12 @@ id: 7,
     {
       id: uuidv4(),
       title: "Analyse d’égalité",
-      img: "public/images/deloitte_project/certificate.jpg",
+      img: "/images/deloitte_project/Dashboard.png",
     },
     {
       id: uuidv4(),
       title: "Certificat of Completion",
-      img: "public/images/deloitte_project/certificate.jpg",
+      img: "public/images/deloitte_project/certific.png",
     }
   ],
   ProjectInfo: {
