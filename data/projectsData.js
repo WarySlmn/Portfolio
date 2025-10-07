@@ -455,7 +455,7 @@ id: 7,
     {
       id: uuidv4(),
       title: "Analyse d’égalité",
-      img: "/images/deloitte_project/Dashboard.png",
+      img: "public/images/deloitte_project/certificate.jpg",
     },
     {
       id: uuidv4(),
